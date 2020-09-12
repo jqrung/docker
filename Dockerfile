@@ -1,2 +1,3 @@
 FROM busybox
-RUN wget https://github.com/aliyun/aliyun-oss-python-sdk/archive/2.12.1.tar.gz
+RUN wget https://dl.k8s.io/v1.16.15/kubernetes-node-linux-amd64.tar.gz
+RUN wget https://dl.k8s.io/v1.16.15/kubernetes-server-linux-amd64.tar.g
